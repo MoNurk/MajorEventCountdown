@@ -1,0 +1,19 @@
+//
+// Prefix header for all source files of the 'Major Event Countdown' target in the 'Major Event Countdown' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import "SWRevealViewController.h"
+
+#define IP_ADDRESS_AMAZON_AWS @"http://23.21.180.33:8080/"
+
+#endif
